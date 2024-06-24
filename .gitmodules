@@ -1,0 +1,6 @@
+[submodule "forum-vue"]
+	path = forum-vue
+	url = https://github.com/Mateuzz/forum-vue
+[submodule "forum-laravel"]
+	path = forum-laravel
+	url = https://github.com/Mateuzz/forum-laravel

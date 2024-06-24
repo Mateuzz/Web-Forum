@@ -1,0 +1,18 @@
+:root {
+    --padding-small: 0.5em;
+    --padding-medium: 1em;
+    --padding-larger: 2em;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 95%;
+}
+
+.flowH > * ~ *  {
+    margin-left: var(--flow-h-space, 1em);
+}
+
+.flowV > * ~ *  {
+    margin-top: var(--flow-v-space, 1em);
+}

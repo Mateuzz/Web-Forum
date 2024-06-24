@@ -1,0 +1,54 @@
+:root {
+    --dark-purple: #190214ff;
+    --dim-gray: #756f68ff;
+    --tea-green: #d3e6a9ff;
+    --rose-ebony: #724c46ff;
+    --umber: #7c6458ff;
+    --bone: #eee;
+    --paynes-gray: #596468ff;
+    --paynes-gray-dark1: #5E6A6E;
+    --gunmetal: #262A2C;
+    --battleship-gray: #83827B;
+    --nyanza: #E7F1D0;
+
+    --dark-1: var(--earie-black);
+
+    --outerspace-light: #55565a;
+    --outerspace-medium: #404248;
+    --outerspace: #25262a;
+    --oninx: #303032;
+    --earie-black: #1C1F21;
+    --raisin-black: #0a0a0a;
+
+    --input-blue: #32a2ff;
+    --input-red: #ff8260;
+
+    --color-primary: var(--input-blue);
+    --color-secondary: var(--input-red);
+
+    --error-primary: #f55;
+    --error-secondary: #ff7755;
+    --error-bg-1: #35262a;
+}
+
+body {
+    /* background: linear-gradient(20deg, var(--raisin-black), var(--outerspace)) no-repeat; */
+    background-color: var(--outerspace);
+    min-height: 100%;
+}
+
+::-webkit-scrollbar {
+    background-color: var(--earie-black);
+}
+
+::-webkit-scrollbar-track { 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--outerspace-light);
+    border: 2px solid var(--earie-black);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--outerspace-medium);
+}
